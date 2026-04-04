@@ -21,7 +21,9 @@ jobs:
 
 
     - name: Build Jar
-      run: ./mvn clean package -DskipTests
+      run: |
+          chmod +x ./mvnx
+          ./mvn clean package -DskipTests
 
     - name: Login to Docker Hub
       run: docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
