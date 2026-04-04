@@ -14,4 +14,8 @@ public class Controller {
 	public String testme() {
 		return "This is proof it works !";
 	}
+	
+	public String getContent() {
+		return " C/CD Workfolw of SpringBoot + GitHub Acions + AWS EC2 Deployment Implemented";
+	}
 }
