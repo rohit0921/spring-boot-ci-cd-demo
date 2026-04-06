@@ -15,6 +15,7 @@ public class Controller {
 		return "This is proof it works !";
 	}
 	
+	@GetMapping
 	public String getContent() {
 		return " C/CD Workfolw of SpringBoot + GitHub Acions + AWS EC2 Deployment Implemented !";
 	}
