@@ -16,6 +16,6 @@ public class Controller {
 	}
 	
 	public String getContent() {
-		return " C/CD Workfolw of SpringBoot + GitHub Acions + AWS EC2 Deployment Implemented";
+		return " C/CD Workfolw of SpringBoot + GitHub Acions + AWS EC2 Deployment Implemented !";
 	}
 }
