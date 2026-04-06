@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/testme")
+@RequestMapping("/")
 @CrossOrigin(origins = "*")
 public class Controller {
 	
@@ -17,6 +17,6 @@ public class Controller {
 	
 	@GetMapping("/getContent")
 	public String getContent() {
-		return " C/CD Workfolw of SpringBoot + GitHub Acions + AWS EC2 Deployment Implemented !";
+		return " CI/CD Workflow of SpringBoot + GitHub Acions + AWS EC2 Deployment Implemented !";
 	}
 }
